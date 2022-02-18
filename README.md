@@ -2,7 +2,7 @@ This repository contains data and code that accompany the paper titled "Minimal 
 
 ## Table of Contents
 
-* `data/takahashi2016roesch2009burton2018Valid.csv`: data aggregated from three studies: Roesch et al. (2009), Takahashi et al. (2016), and Burton et al. (2018). Only valid trials (i.e., trials in which animals made a choice response, and received the reward delivery if reward was available) are included. See [Data](#data) for details.
+* `data/takahashi2016roesch2009burton2018Valid.csv`: behavioral data aggregated from three studies: Roesch et al. (2009), Takahashi et al. (2016), and Burton et al. (2018). Only valid trials (i.e., trials in which animals made a choice response, and received the reward delivery if reward was available) are included. See [Data](#data) for details.
 * `model_code_stan/`: model codes in stan
 * `model_fits/`: model fits (posterior samples of model parameters)
 * `model_simulation/`: model simulation results (due to space limit, we only include the aggregated results used for plotting average reward and learning curves)
@@ -41,7 +41,7 @@ Model fitting and evaluation functions are implemented in `funcs_model_fit_evalu
 
 Model fitting results (posterior samples of model parameters) are saved in `model_fits/`.
 
-## Analyses ang figures
+## Analyses and figures
 
 The following notebooks reproduce the analyses and figures in the paper:
 
